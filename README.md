@@ -26,6 +26,7 @@ $ gcc -Wall -std=gnu99 -o most_processes most_processes.c
 ```
 Usage: most_processes [ppid]
 ```
+Note: This program requires input from stdin, so if you run it without stdin redirection, then it will wait for your input from keyboard.
 
 ### Example
 ```
