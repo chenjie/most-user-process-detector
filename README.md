@@ -36,6 +36,13 @@ mcraig 5
 # This determines which user is running most processes with the ppid=1.
 $ ./most_processes 1 < example.input
 daemon 2
+
+# Of course, you can run this program in a more elegant way.
+# Notice that the input must be sorted.
+$ ps -ef | sed 1d | sort | ./most_processes
+root 628
+$ ps -ef | sed 1d | sort | ./most_processes 1
+root 21
 ```
 
 ## Author(s)
