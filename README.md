@@ -32,7 +32,7 @@ Usage: most_processes [ppid]
 $ ./most_processes < example.input
 mcraig 5
 
-$ # This determines which user is running most processes with the ppid=1.
+# This determines which user is running most processes with the ppid=1.
 $ ./most_processes 1 < example.input
 daemon 2
 ```
